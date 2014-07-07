@@ -1,0 +1,110 @@
+Monday, July 7, 2014
+[11:09:12 AM] Sarven Capadisli: http://worldbank.270a.info/classification/indicator
+[11:09:56 AM] Sarven Capadisli: http://worldbank.270a.info/dataset/world-bank-indicators
+[11:10:18 AM] Sarven Capadisli: http://worldbank.270a.info/dataset/SP.DYN.IMRT.IN
+[11:12:21 AM] Sarven Capadisli: http://worldbank.270a.info/dataset/world-bank-indicators/GC.DOD.TOTL.GD.ZS/CA/2009
+[11:16:26 AM] Sarven Capadisli: http://worldbank.270a.info/classification/indicator/GC.DOD.TOTL.GD.ZS
+[11:19:40 AM] Sarven Capadisli: http://worldbank.270a.info/classification/indicator/SP.DYN.IMRT.IN
+[11:20:35 AM] Sarven Capadisli: http://worldbank.270a.info/classification/topic
+[11:27:33 AM] Sarven Capadisli: ?concept skos:inScheme <http://worldbank.270a.info/classification/indicator>
+[11:27:47 AM] Sarven Capadisli: ?concept skos:prefLabel ?conceptLabel
+[11:32:03 AM] Sarven Capadisli: 9416 concepts w/ labels
+[11:33:39 AM] Sarven Capadisli: 9088 unique datasets in graph http://worldbank.270a.info/graph/world-development-indicators
+[11:37:59 AM] Sarven Capadisli: SELECT (COUNT(?indicator) AS ?c) WHERE  { GRAPH g-indicators: { ?observation property:indicator ?indicator . ?indicator skos:prefLabel ?indicatorLabel } }
+[11:39:34 AM] Sarven Capadisli: SELECT ?indicator ?indicatorLabel WHERE  { GRAPH g-indicators: { ?observation property:indicator ?indicator . ?indicator skos:prefLabel ?indicatorLabel } }
+[11:44:55 AM] Sarven Capadisli: http://worldbank.270a.info/dataset/GC.DOD.TOTL.GD.ZS
+[11:46:09 AM] Sarven Capadisli: conceptURI, conceptLabel
+[11:46:10 AM] Sarven Capadisli: or
+[11:46:16 AM] Sarven Capadisli: datasetURI, datasetLabel
+[11:46:32 AM] Sarven Capadisli: or
+[11:46:46 AM] Sarven Capadisli: datasetURI, conceptURI, conceptLabel
+[11:47:29 AM] Albert Meroño Peñuela: datasetURI_A, conceptURI_A, conceptLabel_A, datasetURI_B, conceptURI_B, conceptLabel_B, sim_value
+[11:48:43 AM] Sarven Capadisli: d_i, d_j
+[11:48:58 AM] Sarven Capadisli: .
+[11:49:58 AM] Sarven Capadisli: d_i, d_j, simarlity
+[11:50:05 AM] Sarven Capadisli: d_i, d_j, correlation
+[11:50:32 AM] Sarven Capadisli: d_i, d_j, similarity, correlation
+[12:01:13 PM] Sarven Capadisli: SELECT (COUNT(DISTINCT ?dataset) AS ?d)
+
+WHERE {
+
+GRAPH g-indicators: {
+
+?s qb:dataSet ?dataset .
+
+?s sdmx-dimension:refPeriod year:2012 .
+
+?dataset dcterms:title ?title .
+
+}
+
+}
+[12:01:15 PM] Sarven Capadisli: => 0
+[12:02:10 PM] Sarven Capadisli: SELECT (COUNT(DISTINCT ?dataset) AS ?d)
+
+WHERE {
+
+GRAPH g-indicators: {
+
+?s qb:dataSet ?dataset .
+
+?s sdmx-dimension:refPeriod year:2013 .
+
+}
+
+GRAPH g-meta: {
+
+?dataset dcterms:title ?title .
+
+}
+
+}
+[12:02:12 PM] Sarven Capadisli: => 1405
+[12:02:24 PM] Sarven Capadisli: SELECT (COUNT(DISTINCT ?dataset) AS ?d)
+
+WHERE {
+
+GRAPH g-indicators: {
+
+?s qb:dataSet ?dataset .
+
+?s sdmx-dimension:refPeriod year:2012 .
+
+}
+
+GRAPH g-meta: {
+
+?dataset dcterms:title ?title .
+
+}
+
+}
+[12:02:28 PM] Sarven Capadisli: => 3257
+[12:03:28 PM] Sarven Capadisli: 2011 => 5784
+[12:04:38 PM] Sarven Capadisli: 2010 => 6816
+[12:05:30 PM] Sarven Capadisli: 2009 => 5619
+[12:07:21 PM] Sarven Capadisli: 2008 => 5426
+[12:09:15 PM] Sarven Capadisli: http://worldbank.270a.info/sparql?query=PREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+owl%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2002%2F07%2Fowl%23%3E%0D%0APREFIX+dcterms%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+foaf%3A+%3Chttp%3A%2F%2Fxmlns.com%2Ffoaf%2F0.1%2F%3E%0D%0APREFIX+skos%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2004%2F02%2Fskos%2Fcore%23%3E%0D%0APREFIX+wgs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2003%2F01%2Fgeo%2Fwgs84_pos%23%3E%0D%0APREFIX+dbo%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0APREFIX+dbp%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0D%0APREFIX+dbr%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0D%0APREFIX+sdmx%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%23%3E%0D%0APREFIX+sdmx-attribute%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fattribute%23%3E%0D%0APREFIX+sdmx-dimension%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fdimension%23%3E%0D%0APREFIX+sdmx-measure%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fsdmx%2F2009%2Fmeasure%23%3E%0D%0APREFIX+qb%3A+%3Chttp%3A%2F%2Fpurl.org%2Flinked-data%2Fcube%23%3E%0D%0APREFIX+year%3A+%3Chttp%3A%2F%2Freference.data.gov.uk%2Fid%2Fyear%2F%3E%0D%0APREFIX+void%3A+%3Chttp%3A%2F%2Frdfs.org%2Fns%2Fvoid%23%3E%0D%0A%0D%0APREFIX+wbld%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2F%3E%0D%0APREFIX+property%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fproperty%2F%3E%0D%0APREFIX+classification%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2F%3E%0D%0APREFIX+indicator%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Findicator%2F%3E%0D%0APREFIX+country%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Fcountry%2F%3E%0D%0APREFIX+income-level%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Fincome-level%2F%3E%0D%0APREFIX+lending-type%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Flending-type%2F%3E%0D%0APREFIX+region%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Fregion%2F%3E%0D%0APREFIX+source%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Fsource%2F%3E%0D%0APREFIX+topic%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Ftopic%2F%3E%0D%0APREFIX+currency%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Fcurrency%2F%3E%0D%0APREFIX+project%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Fproject%2F%3E%0D%0APREFIX+loan-status%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Floan-status%2F%3E%0D%0APREFIX+variable%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Fvariable%2F%3E%0D%0APREFIX+global-circulation-model%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Fglobal-circulation-model%2F%3E%0D%0APREFIX+scenario%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fclassification%2Fscenario%2F%3E%0D%0A%0D%0APREFIX+stats%3A+%3Chttp%3A%2F%2Fstats.270a.info%2Fvocab%23%3E%0D%0A%0D%0APREFIX+d-indicators%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fdataset%2Fworld-bank-indicators%3E%0D%0APREFIX+d-finances%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fdataset%2Fworld-bank-finances%2F%3E%0D%0APREFIX+d-climates%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fdataset%2Fworld-bank-climates%2F%3E%0D%0A%0D%0A%23USE+THESE+GRAPHS+%3A%29%0D%0APREFIX+g-void%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fgraph%2Fvoid%3E%0D%0APREFIX+g-meta%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fgraph%2Fmeta%3E%0D%0APREFIX+g-climates%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fgraph%2Fworld-bank-climates%3E%0D%0APREFIX+g-finances%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fgraph%2Fworld-bank-finances%3E%0D%0APREFIX+g-projects%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fgraph%2Fworld-bank-projects-and-operations%3E%0D%0APREFIX+g-indicators%3A+%3Chttp%3A%2F%2Fworldbank.270a.info%2Fgraph%2Fworld-development-indicators%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Ftitle%0D%0AWHERE+{%0D%0AGRAPH+g-indicators%3A+{%0D%0A%3Fs+qb%3AdataSet+%3Fdataset+.%0D%0A%3Fs+sdmx-dimension%3ArefPeriod+year%3A2013+.%0D%0A}%0D%0AGRAPH+g-meta%3A+{%0D%0A%3Fdataset+dcterms%3Atitle+%3Ftitle+.%0D%0A}%0D%0A}%0D%0AORDER+BY+%3Ftitle&default-graph-uri=&output=xml&stylesheet=%2Fxml-to-html.xsl
+[12:09:55 PM] Sarven Capadisli: SELECT DISTINCT ?title
+
+WHERE {
+
+GRAPH g-indicators: {
+
+?s qb:dataSet ?dataset .
+
+?s sdmx-dimension:refPeriod year:2013 .
+
+}
+
+GRAPH g-meta: {
+
+?dataset dcterms:title ?title .
+
+}
+
+}
+
+ORDER BY ?title
+[12:29:35 PM] Sarven Capadisli: https://github.com/csarven/linked-dataset-similarity-correlation
+
