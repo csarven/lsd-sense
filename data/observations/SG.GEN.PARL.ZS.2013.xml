@@ -1,0 +1,1737 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="refArea"/>
+    <variable name="obsValue"/>
+  </head>
+  <results>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/1A</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">17.49244456611</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/S3</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">17.0811235955056</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/Z4</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">18.8518013033321</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/4E</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">19.2656021767149</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XC</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">29.9577730090606</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/Z7</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">24.6753349518928</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/7E</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">17.1891112266112</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/EU</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">27.0906547133931</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">21.7969413511507</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XD</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">25.1536318310685</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">16.5290158082611</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XS</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">27.199213836478</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ZJ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">24.8102169525732</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XJ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">25.8100527631214</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XL</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">21.3940530435799</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XO</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">20.5449772501066</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">21.6877300613497</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XN</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">16.4672824200347</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ZQ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">15.9354265402844</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XQ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">16.4158426560808</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XP</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0919036981881</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XU</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">20.734100135318</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/OE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">26.2390331890332</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/S4</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">16.7442879499218</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/S1</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">14.8083415597236</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/8S</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">20.0417012448133</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ZG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">22.2514504525412</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ZF</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">22.3694212935791</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/XT</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">22.5123189005712</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/1W</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">21.7738797215922</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AF</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">27.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AL</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">17.9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/DZ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">31.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AD</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">50</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AO</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">34.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">10.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">10.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AU</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">26</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AT</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">33.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AZ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">16</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BS</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">13.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BH</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">10</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BD</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">19.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BB</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">16.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BY</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">26.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">38</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BZ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BJ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">8.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BT</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">6.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BO</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">25.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">21.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BW</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">7.9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">8.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">24.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BF</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">15.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BI</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">30.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CV</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">20.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/KH</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">20.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">31.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">24.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TD</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">14.9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CL</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">14.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CN</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">23.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CO</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">12.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/KM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CD</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">8.9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">7.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">38.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CI</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/HR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">23.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CU</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">48.9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CY</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">10.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CZ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">19.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/DK</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">39.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/DJ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">12.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/DM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">12.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/DO</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">20.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/EC</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">38.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SV</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">26.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GQ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">12.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ER</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">22</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/EE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">20.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ET</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">27.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/FI</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">42.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/FR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">26.9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">15.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">7.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">12</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/DE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">36.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GH</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">10.9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">21</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GD</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">33.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GT</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">13.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GW</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">14</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GY</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">31.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/HT</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">4.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/HN</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">19.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/HU</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">8.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/IS</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">39.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/IN</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">11</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ID</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">18.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/IR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/IQ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">25.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/IE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">15.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/IL</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">22.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/IT</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">31.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/JM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">12.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/JP</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">8.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/JO</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">12.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/KZ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">24.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/KE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">18.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/KI</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">8.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/KP</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">15.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/KR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">15.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/KW</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">6.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/KG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">23.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/LA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">25</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/LV</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">23</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/LB</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">3.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/LS</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">26.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/LR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">11</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/LY</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">16.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/LI</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">20</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/LT</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">24.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/LU</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">23.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MK</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">34.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">17.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MW</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">22.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MY</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">10.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MV</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">6.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ML</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">10.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MT</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">14.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MH</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">22.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MU</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">18.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MX</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">36.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/FM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MD</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">19.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MC</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">20.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MN</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">14.9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ME</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">16</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">17</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MZ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">39.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/NA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">24.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/NP</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">33.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/NL</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">38.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/NZ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">32.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/NI</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">40.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/NE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">13.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/NG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">6.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/NO</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">39.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/OM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">1.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/PK</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">20.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/PW</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/PA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">8.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/PG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">2.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/PY</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">17.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/PE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">21.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/PH</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">27.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/PL</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">23.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/PT</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">28.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/QA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/RO</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">13.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/RU</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">13.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/RW</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">63.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/WS</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">4.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">18.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ST</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">18.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">19.9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SN</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">42.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/RS</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">33.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SC</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">43.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SL</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">12.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">24.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SK</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">18.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SI</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">32.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SB</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SO</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">13.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ZA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">42.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SS</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">26.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ES</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">36</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/LK</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">5.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/KN</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">6.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/LC</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">16.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/VC</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">13</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SD</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">24.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">11.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SZ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">6.2</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">44.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CH</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">29</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SY</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">12</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TJ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">19</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TZ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">36</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TH</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">15.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TL</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">38.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">15.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TO</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">3.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TT</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">28.6</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TN</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">26.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">14.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">16.8</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/TV</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">6.7</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/UG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">35</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/UA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">9.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">17.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GB</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">22.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/US</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">17.9</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/UY</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">12.1</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/UZ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">22</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/VU</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">0</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/VE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">17</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/VN</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">24.4</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/YE</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">0.3</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ZM</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">11.5</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ZW</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">31.5</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="refArea"/>
+    <variable name="obsValue"/>
+  </head>
+  <results>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/DJ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">5472</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GH</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">350233</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/KZ</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">126338</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">330941</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/NP</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">435163</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/SA</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">279388</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/ST</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">2274</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>

@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="refArea"/>
+    <variable name="obsValue"/>
+  </head>
+  <results>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AF</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">7824.8837203125</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/AL</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">345</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/BF</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">740</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/CI</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">789.319243903716</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GN</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">566</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/GW</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">75</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MG</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">546</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="refArea">
+        <uri>http://worldbank.270a.info/classification/country/MR</uri>
+      </binding>
+      <binding name="obsValue">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">87.5</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>
