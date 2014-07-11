@@ -17,7 +17,7 @@ cat(paste("datasetX", "datasetY", "correlation", "pValue", "n", sep=","), file=p
 cat(paste("dataset", "time", sep=","), file=paste0(analysisPath, "metadata", ".", refPeriod, ".csv"), sep="\n")
 
 
-datasetLength <- nrow(data)
+datasetLength <- nrow(datasets)
 
 for (i in 1:datasetLength) {
     dtstart <- Sys.time()
