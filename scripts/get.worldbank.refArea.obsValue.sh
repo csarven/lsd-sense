@@ -2,7 +2,7 @@
 data="../data/worldbank.dataset.identifier.2013.csv";
 refPeriod="2013";
 
-tail -n +2 "$data" | tr -d '\r' | while read dataSetCode ; do
+tail -n +2 "$data" | tr -d '\r' | awk -F"," '{print $1}' | while read dataSetCode ; do
 echo "GET ${dataSetCode} ${refPeriod} observations";
 #curl -L -H "Accept: application/sparql-results+xml" \
 curl -s -L -H "Accept: text/csv" \
