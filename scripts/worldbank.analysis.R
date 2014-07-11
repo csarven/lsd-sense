@@ -6,7 +6,7 @@ library(ggplot2)
 
 refPeriod <- c("2013")
 
-dataPath <- c("/var/www/linked-dataset-similarity-correlation/data/")
+dataPath <- c("../data/")
 observationPath <- paste0(dataPath, "observations/")
 analysisPath <- paste0(dataPath, "analysis/")
 datasets <- read.csv(paste0(dataPath, "worldbank.dataset.identifier.", refPeriod, ".csv"), header=T)
