@@ -14,7 +14,8 @@ correlationMethod <- c("kendall")
 
 cat("Get dataset similarities and correlations from each dataset\n")
 dataX <- read.csv(paste0(analysisPath, "similarity", ".", refPeriod, ".csv"), na.strings='', header=T)
-dataX <- dataX[!(dataX$similarity==1 | dataX$similarity==0),]
+dataX <- dataX[!(dataX$similarity==-1 | dataX$similarity==1),]
+dataX$similarity <- (dataX$similarity + 1)/2
 
 #, colClasses=c(NA,NA,NA,'NULL','NULL')
 dataY <- read.csv(paste0(analysisPath, "correlation", ".", refPeriod, ".csv"), na.strings='', header=T)
@@ -37,7 +38,7 @@ cat("Create and store plot\n")
 g <- ggplot(data, aes(data$similarity, data$correlation)) + xlab("Similarity") + ylab("Correlation") + geom_point(alpha = 1/10) + labs(list(title=paste0(refPeriod, " correlation:", correlation, " pValue:", pValue, " n:", n)))
 
 g <- g + annotate("text", x=Inf, y=Inf, label="270a.info", hjust=1.3, vjust=2, color="#0000E4", size=4)
-ggsave(plot=g, file=paste0(plotPath, ".jpg"), width=7, height=7)
+ggsave(plot=g, file=paste0(plotPath, ".jpg"), width=7, height=7)        
 g
 #ggsave(plot=g, file=paste0(plotPath, ".svg"), width=7, height=7)
 #ggsave(plot=g, file=paste0(plotPath, ".png"), width=7, height=7)
