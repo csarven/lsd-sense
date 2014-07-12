@@ -45,6 +45,7 @@ g
 
 warnings()
 
-#real	2m35.869s
-#user	2m35.438s
-#sys	0m0.594s
+#real	1m13.920s
+#user	1m13.867s
+#sys	0m0.132s
+
