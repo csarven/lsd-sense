@@ -15,11 +15,11 @@ correlationMethod <- c("kendall")
 cat("Get dataset similarities and correlations from each dataset\n")
 dataX <- read.csv(paste0(analysisPath, "similarity", ".", refPeriod, ".csv"), na.strings='', header=T)
 dataX$similarity <- abs(dataX$similarity)
-#dataX <- dataX[!(dataX$similarity<0.025 | dataX$similarity>0.975),]
+dataX <- dataX[!(dataX$similarity==0 | dataX$similarity==1),]
 
 dataY <- read.csv(paste0(analysisPath, "correlation", ".", refPeriod, ".csv"), na.strings='', header=T)
 dataY$correlation <- abs(dataY$correlation)
-#dataY <- dataY[!(dataY$correlation<0.025 | dataY$correlation>0.975 | dataY$pValue>0.05),]
+dataY <- dataY[!(dataY$correlation==0 | dataY$correlation==1 | dataY$pValue>0.05),]
 
 data <- merge(dataX, dataY, by=c("datasetX", "datasetY"))
 
@@ -38,11 +38,7 @@ g <- g + annotate("text", x=Inf, y=0, label=paste0("p-value: ", format(round(pVa
 g <- g + annotate("text", x=Inf, y=0, label=paste0("n: ", n), hjust=1.475, vjust=-0.75, size=4)
 
 ggsave(plot=g, file=paste0(plotPath, ".png"), width=7, height=7)
-g
+#g
 
-warnings()
-
-#real	1m13.920s
-#user	1m13.867s
-#sys	0m0.132s
+#warnings()
 
