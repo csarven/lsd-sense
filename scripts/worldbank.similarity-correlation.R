@@ -15,11 +15,11 @@ correlationMethod <- c("kendall")
 cat("Get dataset similarities and correlations from each dataset\n")
 dataX <- read.csv(paste0(analysisPath, "similarity", ".", refPeriod, ".csv"), na.strings='', header=T)
 dataX$similarity <- abs(dataX$similarity)
-dataX <- dataX[!(dataX$similarity<0.025 | dataX$similarity>0.975),]
+#dataX <- dataX[!(dataX$similarity<0.025 | dataX$similarity>0.975),]
 
 dataY <- read.csv(paste0(analysisPath, "correlation", ".", refPeriod, ".csv"), na.strings='', header=T)
 dataY$correlation <- abs(dataY$correlation)
-dataY <- dataY[!(dataY$correlation<0.025 | dataY$correlation>0.975 | dataY$pValue>0.05),]
+#dataY <- dataY[!(dataY$correlation<0.025 | dataY$correlation>0.975 | dataY$pValue>0.05),]
 
 data <- merge(dataX, dataY, by=c("datasetX", "datasetY"))
 
