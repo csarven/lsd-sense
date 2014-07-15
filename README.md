@@ -25,3 +25,11 @@ Coming soon to a theatre near you.
 * SPARQL Endpoint (to pull data from)
 * [SemanticCorrelation](https://github.com/albertmeronyo/SemanticCorrelation) (to create a similarity matrix)
 
+
+## Code License
+[Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
+
+## Content License
+[CC0 1.0 Universal](http://creativecommons.org/publicdomain/zero/1.0/)
+
