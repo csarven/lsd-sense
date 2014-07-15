@@ -3,14 +3,9 @@
 
 library(ggplot2)
 
-refPeriod <- c("2013")
+source("config.worldbank.R", local=TRUE)
 
-dataPath <- c("../../data/worldbank/")
-metaPath <- paste0(dataPath, "meta/")
-observationPath <- paste0(dataPath, "observations/")
-analysisPath <- paste0(dataPath, "analysis/")
 datasets <- read.csv(paste0(metaPath, "worldbank.metadata.", refPeriod, ".csv"), header=T)
-
 
 correlationMethod <- c('kendall')
 cat(paste("datasetX", "datasetY", "correlation", "pValue", "n", sep=","), file=paste0(analysisPath, "correlation", ".", refPeriod, ".csv"), sep="\n")

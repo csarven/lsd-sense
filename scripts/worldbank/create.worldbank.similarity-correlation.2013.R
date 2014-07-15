@@ -3,11 +3,7 @@
 
 library(ggplot2)
 
-refPeriod <- c("2013")
-
-dataPath <- c("../../data/worldbank/")
-analysisPath <- paste0(dataPath, "analysis/")
-plotPath <- paste0(dataPath, "plots/", "similarity-correlation", ".", refPeriod)
+source("config.worldbank.R", local=TRUE)
 
 correlationMethod <- c("kendall")
 

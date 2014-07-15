@@ -3,9 +3,7 @@
 
 refPeriod <- c("2013")
 
-dataPath <- c("../../data/worldbank/")
-metaPath <- paste0(dataPath, "meta/")
-analysisPath <- paste0(dataPath, "analysis/")
+source("config.worldbank.R", local=TRUE)
 
 dataX <- read.csv(paste0(analysisPath, "correlation.", refPeriod, ".csv"), na.strings='', header=T)
 dataX <- dataX[!(dataX$n <= 10),]
