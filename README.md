@@ -9,8 +9,8 @@ Coming soon to a theatre near you.
 
 ## Workflow
 
-1. Get dataset metadata.
-2. Get each dataset.
+1. Get metadata of datasets.
+2. Get each dataset's observations.
 3. Create correlations and other analysis for each dataset pair combination.
 4. Create dataset metadata subset for semantic similarity.
 5. Create semantic similarity for each dataset pair combination.
