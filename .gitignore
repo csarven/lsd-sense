@@ -1,4 +1,4 @@
-data/observations/
-data/plots/*.svg
+data/*/observations/
+data/*/plots/*.svg
 Rplots.pdf
 notes.txt

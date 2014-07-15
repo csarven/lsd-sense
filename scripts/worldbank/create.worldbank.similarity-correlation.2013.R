@@ -1,12 +1,11 @@
 #Author: Sarven Capadisli <info@csarven.ca>
 #Author URL: http://csarven.ca/#i
 
-
 library(ggplot2)
 
 refPeriod <- c("2013")
 
-dataPath <- c("../data/")
+dataPath <- c("../../data/worldbank/")
 analysisPath <- paste0(dataPath, "analysis/")
 plotPath <- paste0(dataPath, "plots/", "similarity-correlation", ".", refPeriod)
 

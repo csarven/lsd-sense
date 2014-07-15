@@ -1,15 +1,15 @@
 #Author: Sarven Capadisli <info@csarven.ca>
 #Author URL: http://csarven.ca/#i
 
-
 library(ggplot2)
 
 refPeriod <- c("2013")
 
-dataPath <- c("../data/")
+dataPath <- c("../../data/worldbank/")
+metaPath <- paste0(dataPath, "meta/")
 observationPath <- paste0(dataPath, "observations/")
 analysisPath <- paste0(dataPath, "analysis/")
-datasets <- read.csv(paste0(dataPath, "worldbank.dataset.identifier.", refPeriod, ".csv"), header=T)
+datasets <- read.csv(paste0(metaPath, "worldbank.metadata.", refPeriod, ".csv"), header=T)
 
 
 correlationMethod <- c('kendall')

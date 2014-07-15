@@ -1,3 +1,6 @@
+#Author: Sarven Capadisli <info@csarven.ca>
+#Author URL: http://csarven.ca/#i
+
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX qb: <http://purl.org/linked-data/cube#>
 PREFIX sdmx-dimension: <http://purl.org/linked-data/sdmx/2009/dimension#>
