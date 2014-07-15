@@ -23,6 +23,8 @@ dataY <- dataY[!(dataY$correlation==0 | dataY$correlation==1 | dataY$pValue>0.05
 
 data <- merge(dataX, dataY, by=c("datasetX", "datasetY"))
 
+write.csv(data, file=paste0(analysisPath, "similarity-correlation", ".", refPeriod, ".csv"), row.names=FALSE)
+
 cat("Analysis\n")
 correlation <- cor(data$similarity, data$correlation, use="complete.obs", method=correlationMethod)
 pValue <- cor.test(data$similarity, data$correlation, method=correlationMethod)$p.value
@@ -32,7 +34,6 @@ cat("Create and store plot\n")
 g <- ggplot(data, aes(data$similarity, data$correlation)) + xlab("Similarity") + ylab("Correlation") + geom_point(alpha = 1/10) + ggtitle(paste0(refPeriod, " World Bank indicators \n semantic similarity and correlation relationship")) + theme_bw(base_size = 12, base_family = "")
 
 g <- g + annotate("text", x=Inf, y=Inf, label="270a.info", hjust=1.3, vjust=2, color="#0000E4", size=4)
-
 g <- g + annotate("text", x=Inf, y=0, label=paste0("correlation: ", format(round(correlation, 3))), hjust=1.2, vjust=-4.75, size=4)
 g <- g + annotate("text", x=Inf, y=0, label=paste0("p-value: ", format(round(pValue, 3))), hjust=1.25, vjust=-2.75, size=4)
 g <- g + annotate("text", x=Inf, y=0, label=paste0("n: ", n), hjust=1.475, vjust=-0.75, size=4)
