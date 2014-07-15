@@ -1,8 +1,13 @@
-= LSD Similarity and Correlation =
+# LSD Similarity and Correlation
 
-Scripts to investigate whether semantically similar datasets have a strong relationship with the same datasets which happen to be highly correlated.
+This repository will investigate Semantic Similarities and Correlations of Linked Statistical Datasets (LSD). The long running hypothesis is to see whether the datasets that are semantically similar have a significant relationship their own correlations.
 
-The workflow is as follows:
+
+## Documentation
+Coming soon to a theatre near you.
+
+
+## Workflow
 
 1. Get dataset metadata (e.g., /scripts/worldbank/get.worldbank.metadata.2013.sh)
 2. Get each dataset (e.g., /scripts/worldbank/get.worldbank.observation.2013.sh)
@@ -14,9 +19,10 @@ The workflow is as follows:
 7. Sip coffee and see if the plot makes any sense.
 
 
-Requirements:
+## Requirements
 
 * Bash
 * R (ggplot2)
 * SPARQL Endpoint (to pull data from)
 * SemanticCorrelation (to create a similarity matrix)
+
