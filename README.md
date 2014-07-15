@@ -1,6 +1,6 @@
 # LSD Similarity and Correlation
 
-This repository will investigate Semantic Similarities and Correlations of Linked Statistical Datasets (LSD). The long running hypothesis is to see whether the datasets that are semantically similar have a significant relationship their own correlations.
+This repository will investigate Semantic Similarities and Correlations of Linked Statistical Datasets (LSD). By testing different datasets and sections, the ongoing hypothesis will be to see whether the strength of the correlations between the datasets have anything to do with the degree of their semantic similarity.
 
 
 ## Documentation
