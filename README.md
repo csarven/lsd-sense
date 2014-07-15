@@ -9,13 +9,12 @@ Coming soon to a theatre near you.
 
 ## Workflow
 
-1. Get dataset metadata
-2. Get each dataset
-3. Create correlations and other analysis for each dataset pair combination
-4. Create dataset metadata subset for semantic similarity
-5. Create semantic similarity for each dataset pair combination
-6. Create correlation and other analysis for worldbank.similarity-correlation.R
-
+1. Get dataset metadata.
+2. Get each dataset.
+3. Create correlations and other analysis for each dataset pair combination.
+4. Create dataset metadata subset for semantic similarity.
+5. Create semantic similarity for each dataset pair combination.
+6. Create correlation and other analysis for worldbank.similarity-correlation.R.
 7. Sip coffee and see if the plot makes any sense.
 
 
