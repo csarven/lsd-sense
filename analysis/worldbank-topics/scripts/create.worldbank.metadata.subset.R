@@ -1,0 +1,13 @@
+#Author: Sarven Capadisli <info@csarven.ca>
+#Author URL: http://csarven.ca/#i
+
+source("config.worldbank.R", local=TRUE)
+
+dataX <- read.csv(paste0(summaryPath, "correlation", ".", topic, ".", refPeriod, ".csv"), na.strings='', header=T)
+dataX <- dataX[!(dataX$n <= 10),]
+x <- data.frame("identifier" = unique(c(levels(dataX[, "datasetX"]), levels(dataX[, "datasetY"]))))
+
+dataY <- read.csv(paste0(metaPath, "worldbank.metadata", ".", topic, ".", refPeriod, ".csv"), na.strings='', header=T)
+
+write.csv(merge(x, dataY, by="identifier"), file=paste0(metaPath, "worldbank.metadata", ".", topic, ".", refPeriod, ".subset.csv"), row.names=FALSE)
+
