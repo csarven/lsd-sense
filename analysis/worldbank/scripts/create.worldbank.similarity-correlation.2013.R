@@ -8,17 +8,17 @@ source("config.worldbank.R", local=TRUE)
 correlationMethod <- c("kendall")
 
 cat("Get dataset similarities and correlations from each dataset\n")
-dataX <- read.csv(paste0(analysisPath, "similarity", ".", refPeriod, ".csv"), na.strings='', header=T)
+dataX <- read.csv(paste0(summaryPath, "similarity", ".", refPeriod, ".csv"), na.strings='', header=T)
 dataX$similarity <- abs(dataX$similarity)
 dataX <- dataX[!(dataX$similarity==0 | dataX$similarity==1),]
 
-dataY <- read.csv(paste0(analysisPath, "correlation", ".", refPeriod, ".csv"), na.strings='', header=T)
+dataY <- read.csv(paste0(summaryPath, "correlation", ".", refPeriod, ".csv"), na.strings='', header=T)
 dataY$correlation <- abs(dataY$correlation)
 dataY <- dataY[!(dataY$correlation==0 | dataY$correlation==1 | dataY$pValue>0.05),]
 
 data <- merge(dataX, dataY, by=c("datasetX", "datasetY"))
 
-write.csv(data, file=paste0(analysisPath, "similarity-correlation", ".", refPeriod, ".csv"), row.names=FALSE)
+write.csv(data, file=paste0(summaryPath, "similarity-correlation", ".", refPeriod, ".csv"), row.names=FALSE)
 
 cat("Analysis\n")
 correlation <- cor(data$similarity, data$correlation, use="complete.obs", method=correlationMethod)

@@ -2,7 +2,7 @@
 #Author: Sarven Capadisli <info@csarven.ca>
 #Author URL: http://csarven.ca/#i
 
-data="../../data/worldbank/meta/worldbank.metadata.2013.csv";
+data="../meta/worldbank.metadata.2013.csv";
 refPeriod="2013";
 
 tail -n +2 "$data" | tr -d '\r' | awk -F"," '{print $1}' | while read dataSetCode ; do
@@ -18,7 +18,7 @@ WHERE
     ?observation <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ?obsValue .
   }" \
     --data "output=csv" \
-    -o ../data/worldbank/observations/"${dataSetCode}"."${refPeriod}".csv;
+    -o ../observations/"${dataSetCode}"."${refPeriod}".csv;
 done;
 
 #real	2m18.357s

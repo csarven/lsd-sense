@@ -8,8 +8,8 @@ source("config.worldbank.R", local=TRUE)
 datasets <- read.csv(paste0(metaPath, "worldbank.metadata.", refPeriod, ".csv"), header=T)
 
 correlationMethod <- c('kendall')
-cat(paste("datasetX", "datasetY", "correlation", "pValue", "n", sep=","), file=paste0(analysisPath, "correlation", ".", refPeriod, ".csv"), sep="\n")
-cat(paste("dataset", "time", sep=","), file=paste0(analysisPath, "metadata", ".", refPeriod, ".csv"), sep="\n")
+cat(paste("datasetX", "datasetY", "correlation", "pValue", "n", sep=","), file=paste0(summaryPath, "correlation", ".", refPeriod, ".csv"), sep="\n")
+cat(paste("dataset", "time", sep=","), file=paste0(summaryPath, "metadata", ".", refPeriod, ".csv"), sep="\n")
 
 
 datasetLength <- nrow(datasets)
@@ -41,7 +41,7 @@ for (i in 1:datasetLength) {
                 print(analysisLine)
 
                 #Store analysis
-                cat(analysisLine, file=paste0(analysisPath, "correlation", ".", refPeriod, ".csv"), sep="\n", append=TRUE)
+                cat(analysisLine, file=paste0(summaryPath, "correlation", ".", refPeriod, ".csv"), sep="\n", append=TRUE)
 
                 #Create and store plot
                 g <- ggplot(data, aes(data$obsValue.x, data$obsValue.y)) + xlab(datasetX) + ylab(datasetY) + geom_point(size=2, shape=1) + labs(list(x=datasetX, y=datasetY, title=paste0(refPeriod, " correlation")))
@@ -54,6 +54,6 @@ for (i in 1:datasetLength) {
     dtend <- Sys.time()
     duration <- as.numeric(dtend - dtstart, units="secs")
     print(duration)
-    cat(paste(datasetX, duration, sep=","), file=paste0(analysisPath, "metadata", ".", refPeriod, ".csv"), sep="\n", append=TRUE)
+    cat(paste(datasetX, duration, sep=","), file=paste0(summaryPath, "metadata", ".", refPeriod, ".csv"), sep="\n", append=TRUE)
 }
 warnings()
