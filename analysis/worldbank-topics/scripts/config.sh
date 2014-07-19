@@ -5,7 +5,7 @@
 refPeriod="2010";
 topic="4";
 scIterations="--iters 2000";
-scTopics="--topics 100";
+scTopics="--topics 200";
 
 sparqlEndpoint="http://worldbank.270a.info/sparql";
 
