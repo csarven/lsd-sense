@@ -2,14 +2,13 @@
 #Author: Sarven Capadisli <info@csarven.ca>
 #Author URL: http://csarven.ca/#i
 
-data="../meta/worldbank.metadata.2013.csv";
-refPeriod="2013";
+. ./config.sh
 
-tail -n +2 "$data" | tr -d '\r' | awk -F"," '{print $1}' | while read dataSetCode ; do
+tail -n +2 "$metaPathFile" | tr -d '\r' | awk -F"," '{print $1}' | while read dataSetCode ; do
 echo "GET ${dataSetCode} ${refPeriod} observations";
 #curl -L -H "Accept: application/sparql-results+xml" \
 curl -s -L -H "Accept: text/csv" \
-    -G http://worldbank.270a.info/sparql \
+    -G "${sparqlEndpoint}" \
     --data-urlencode "query=SELECT ?refArea ?obsValue
 WHERE
   { ?observation <http://purl.org/linked-data/cube#dataSet> <http://worldbank.270a.info/dataset/"${dataSetCode}"> .
@@ -18,7 +17,7 @@ WHERE
     ?observation <http://purl.org/linked-data/sdmx/2009/measure#obsValue> ?obsValue .
   }" \
     --data "output=csv" \
-    -o ../observations/"${dataSetCode}"."${refPeriod}".csv;
+    -o "${observationPath}""${dataSetCode}"."${refPeriod}".csv;
 done;
 
 #real	2m18.357s

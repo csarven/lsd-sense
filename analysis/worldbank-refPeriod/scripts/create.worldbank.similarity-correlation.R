@@ -5,16 +5,14 @@ library(ggplot2)
 
 source("config.worldbank.R", local=TRUE)
 
-correlationMethod <- c("kendall")
-
 cat("Get dataset similarities and correlations from each dataset\n")
 dataX <- read.csv(paste0(summaryPath, "similarity", ".", refPeriod, ".csv"), na.strings='', header=T)
 dataX$similarity <- abs(dataX$similarity)
-dataX <- dataX[!(dataX$similarity==0 | dataX$similarity==1),]
+dataX <- dataX[!(dataX$similarity<0.05 | dataX$similarity>0.95),]
 
 dataY <- read.csv(paste0(summaryPath, "correlation", ".", refPeriod, ".csv"), na.strings='', header=T)
 dataY$correlation <- abs(dataY$correlation)
-dataY <- dataY[!(dataY$correlation==0 | dataY$correlation==1 | dataY$pValue>0.05),]
+dataY <- dataY[!(dataY$correlation<0.05 | dataY$correlation>0.95 | dataY$pValue>0.05),]
 
 data <- merge(dataX, dataY, by=c("datasetX", "datasetY"))
 
