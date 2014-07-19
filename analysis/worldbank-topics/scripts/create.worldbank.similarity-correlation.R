@@ -5,8 +5,6 @@ library(ggplot2)
 
 source("config.worldbank.R", local=TRUE)
 
-correlationMethod <- c("kendall")
-
 cat("Get dataset similarities and correlations from each dataset\n")
 dataX <- read.csv(paste0(summaryPath, "similarity", ".", topic, ".", refPeriod, ".csv"), na.strings='', header=T)
 dataX$similarity <- abs(dataX$similarity)

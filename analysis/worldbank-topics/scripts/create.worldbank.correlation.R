@@ -7,7 +7,6 @@ source("config.worldbank.R", local=TRUE)
 
 datasets <- read.csv(paste0(metaPath, "worldbank.metadata", ".", topic, ".", refPeriod, ".csv"), header=T)
 
-correlationMethod <- c('kendall')
 cat(paste("datasetX", "datasetY", "correlation", "pValue", "n", sep=","), file=paste0(summaryPath, "correlation", ".", topic, ".", refPeriod, ".csv"), sep="\n")
 cat(paste("dataset", "time", sep=","), file=paste0(summaryPath, "metadata", ".", topic, ".", refPeriod, ".csv"), sep="\n")
 
