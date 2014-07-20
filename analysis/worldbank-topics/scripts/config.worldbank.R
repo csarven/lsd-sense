@@ -1,7 +1,7 @@
 #Author: Sarven Capadisli <info@csarven.ca>
 #Author URL: http://csarven.ca/#i
 
-refPeriod <- c("2013")
+refPeriod <- c("2012")
 topic <- c("4")
 basePath <- c("../")
 metaPath <- paste0(basePath, "meta/")

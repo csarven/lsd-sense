@@ -4,7 +4,8 @@
 source("config.worldbank.R", local=TRUE)
 
 dataX <- read.csv(paste0(summaryPath, "correlation", ".", topic, ".", refPeriod, ".csv"), na.strings='', header=T)
-dataX <- dataX[!(dataX$n <= 10),]
+dataX <- dataX[(dataX$n > 50 & dataX$pValue < 0.05 & dataX$correlation > 0.05 & dataX$correlation < 0.95),]
+
 x <- data.frame("identifier" = unique(c(levels(dataX[, "datasetX"]), levels(dataX[, "datasetY"]))))
 
 dataY <- read.csv(paste0(metaPath, "worldbank.metadata", ".", topic, ".", refPeriod, ".csv"), na.strings='', header=T)

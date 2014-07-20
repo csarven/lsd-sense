@@ -2,7 +2,7 @@
 #Author: Sarven Capadisli <info@csarven.ca>
 #Author URL: http://csarven.ca/#i
 
-refPeriod="2010";
+refPeriod="2012";
 topic="4";
 scIterations="--iters 2000";
 scTopics="--topics 200";
