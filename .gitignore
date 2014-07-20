@@ -1,4 +1,4 @@
 analysis/*/observations/
-analysis/*/plots/*.svg
-Rplots.pdf
-notes.txt
+analysis/*/plots/
+analysis/*/summary/
+
