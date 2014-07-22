@@ -4,7 +4,7 @@ This repository will investigate Semantic Similarities and Correlations of Linke
 
 
 ## Documentation
-Coming soon to a theatre near you.
+http://csarven.ca/sense-of-lsd-analysis
 
 
 ## Workflow
